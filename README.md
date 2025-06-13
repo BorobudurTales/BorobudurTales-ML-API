@@ -4,19 +4,24 @@ Aplikasi backend berbasis **FastAPI** untuk klasifikasi relief Karmawibhangga me
 
 ---
 
+## 🚀 Demo Online
+
+🔗 **Coba langsung di Hugging Face Spaces**:  
+👉 [https://huggingface.co/spaces/solihin0212/Borobudur-Tales](https://solihin0212-borobudur-tales-5394554.hf.space))
+
+
+---
+
 ## 📂 Struktur Folder
 
 ```
 .
-├── app.py                         # File utama FastAPI
+├── model/                         # Berisi model ML (.h5)
 ├── Dockerfile                     # Konfigurasi Docker
+├── app.py                         # File utama FastAPI
 ├── narasi-karmawibhangga.csv     # Narasi untuk setiap kelas/kategori
-├── model/                         # Berisi model ML (misalnya .pkl/.joblib)
-├── static/                        # Direktori penyimpanan gambar upload
-├── Karmawibhangga/                # Modul python (fungsi klasifikasi, utilitas, dll)
 ├── requirements.txt              # Daftar dependensi Python
 ├── README.md                      # Dokumentasi proyek ini
-├── .venv/                         # Virtual environment (jika ada)
 ```
 
 ---
